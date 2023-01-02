@@ -125,7 +125,6 @@ JOIN DEPARTMENT D ON DEPT_CODE = DEPT_ID;
 
 ----스칼라 서브쿼리 WHERE절
 --EX 자신이 속한 직급의 평균 급여보다 많이 받는 직원의 이름 직급 급여 출력 ??
-
 SELECT ROUNG(AVG(SALARY)) FROM EMPLOYEE WHERE DEPT_CODE = 'D6';
 
 ----스칼라 서브쿼리 ORDER BY절
